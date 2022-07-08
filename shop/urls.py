@@ -43,8 +43,10 @@ urlpatterns = [
 
     path('admin/', admin.site.urls),
 
-    path('products/', include('products.urls')),
+    path('', include('products.urls')),
     path('account/', include('accounts.urls')),
+
+    path('', include('orders.urls')),
 
     # path('products/', ProductListView.as_view()),
     # path('products/create/', CreateProductView.as_view()),

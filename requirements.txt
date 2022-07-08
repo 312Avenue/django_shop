@@ -8,4 +8,4 @@ python-decouple
 djangorestframework_simplejwt
 python-slugify
 wheel
-drf-yasg
+drf-yasg - swagger

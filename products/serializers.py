@@ -22,6 +22,7 @@ class ProductSerializer(serializers.ModelSerializer):
         rep['comments'] = CommentSerializer(instance.comments.all(), many=True).data
         return rep
 
+
 class ProductListSerializer(serializers.ModelSerializer):
     class Meta:
         model = Product
