@@ -8,4 +8,7 @@ python-decouple
 djangorestframework_simplejwt
 python-slugify
 wheel
-drf-yasg - swagger
+drf-yasg
+
+gunicorn
+django-cors-headers
