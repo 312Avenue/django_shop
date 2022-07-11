@@ -106,3 +106,17 @@ class CommentViewSet(ModelViewSet):
 # put -> 'update'
 # patch -> 'partial_update'
 # delete -> 'destroy'
+
+
+
+
+
+#TODO: Пройтись по всему проекту, проверить все запросы
+#TODO: Подготовить проект к деплою
+#TODO: Написать тесты
+
+
+#TODO: FastAPI
+#TODO: Docker
+#TODO: Async
+#TODO: pytest
